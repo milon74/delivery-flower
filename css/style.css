@@ -27,6 +27,11 @@ section #wrapper {
     gap: 20px;
 
 }
+section #wrapper button{
+    color:black;
+    background-color: red;
+    padding: 3px;
+}
 section #wrapper .wrapper-item h1 {
     font-size: 40px;
     font-weight: bold;
@@ -156,6 +161,14 @@ section #wrapper .img img {
     text-align: center;
     padding: 60px 0;
 }
+.contact button{
+    color: black;
+    background-color: red;
+    padding: 4px ;
+}
+.contact input{
+    padding: 5px;
+}
 
 #blogs {
     width: 100%;
@@ -203,4 +216,13 @@ section #wrapper .img img {
 }
 #blogs .blog-Container .blog-item p {
     text-align: start;
+}
+#discount-card{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+#discount-card .discount-item.h2{
+    color:red;
+    background-color: red;
 }
